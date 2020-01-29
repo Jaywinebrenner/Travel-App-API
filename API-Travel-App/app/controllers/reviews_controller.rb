@@ -37,6 +37,6 @@ class ReviewsController < ApplicationController
    end
 
    def review_params
-     params.permit(:country, :city)
+     params.permit(:country, :city, :destination_id)
    end
  end
